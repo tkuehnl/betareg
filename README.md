@@ -11,4 +11,4 @@ Proposed Full AWS Architecture approach:
 
 With the time limit, we are only focused on the "Users" portion of the architecture and a basic front end in React.
 
-![Implemented Architecture](https://github.com/tkuehnl/betareg/blob/main/reactarch.PNG?raw=true)
+![Implemented Architecture](https://github.com/tkuehnl/betareg/blob/main/images/reactarch.PNG?raw=true)
