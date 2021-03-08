@@ -41,6 +41,10 @@ https://kky3vgml56.execute-api.us-east-1.amazonaws.com/prod/developers
 REST endpoint:
 https://kky3vgml56.execute-api.us-east-1.amazonaws.com/prod/developer
 
+Here is an example of the notification email that is sent via SNS Topic Subscription:
+
+![SNS Email](https://github.com/tkuehnl/betareg/blob/main/images/email_subscriber.JPG?raw=true)
+
 With more time, I would also implement a proper CI/CD pipeline such as the following:
 
 ![Proposed AWS CI/CD](https://github.com/tkuehnl/betareg/blob/main/images/ci_cd.png?raw=true)
