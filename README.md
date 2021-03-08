@@ -35,4 +35,4 @@ Here is the implemented json data structure for a developer:
 
 With more time, I would also implement a proper CI/CD pipeline such as the following:
 
-![Proposed AWS CI/CD](https://github.com/tkuehnl/betareg/blob/main/images/cd_cd.png?raw=true)
+![Proposed AWS CI/CD](https://github.com/tkuehnl/betareg/blob/main/images/ci_cd.png?raw=true)
