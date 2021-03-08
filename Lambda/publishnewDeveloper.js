@@ -8,12 +8,12 @@ exports.handler = (event, context, callback) => {
         console.log('Stream record: ', JSON.stringify(record, null, 2));
 
         if (record.eventName == 'INSERT') {
-            var first = JSON.stringify(record.dynamodb.NewImage.first_name);
-            var last = JSON.stringify(record.dynamodb.NewImage.last_name);
-            var email = JSON.stringify(record.dynamodb.NewImage.email);
-            var registered = JSON.stringify(record.dynamodb.NewImage.registered_at);
-            var city = JSON.stringify(record.dynamodb.NewImage.city);
-            var state = JSON.stringify(record.dynamodb.NewImage.state);
+            var first = JSON.stringify(record.dynamodb.NewImage.first_name.S);
+            var last = JSON.stringify(record.dynamodb.NewImage.last_name.S);
+            var email = JSON.stringify(record.dynamodb.NewImage.email.S);
+            var registered = JSON.stringify(record.dynamodb.NewImage.registered_at.S);
+            var city = JSON.stringify(record.dynamodb.NewImage.city.S);
+            var state = JSON.stringify(record.dynamodb.NewImage.state.S);
         
             var params = {
                 Subject: 'New Developer: ' + first + ' ' + last,
