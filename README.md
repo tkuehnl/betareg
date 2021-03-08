@@ -14,7 +14,7 @@ With the time limit, we are only focused on the "Users" portion of the API archi
 ![Implemented Architecture](https://github.com/tkuehnl/betareg/blob/main/images/implemented.png?raw=true)
 
 Here is the implemented json data structure for a developer:
-
+```json
 {
 	"id":"pXhwzzlJtQU",
 	"registered_at": "2021-03-08T13:32:09.325519",
@@ -31,7 +31,7 @@ Here is the implemented json data structure for a developer:
 	"twitter_username":"toddkuehnl",
 	"instagram_username":"toddkuehnl"
 }
-
+```
 
 With more time, I would also implement a proper CI/CD pipeline such as the following:
 
