@@ -3,7 +3,7 @@ AWS.config.update( {
   region: 'us-east-1'
 });
 const dynamodb = new AWS.DynamoDB.DocumentClient();
-const dynamodbTableName = 'product-inventory';
+const dynamodbTableName = 'developers';
 const healthPath = '/health';
 const developerPath = '/developer';
 const developersPath = '/developers';
