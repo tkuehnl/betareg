@@ -32,14 +32,6 @@ Here is the implemented json data structure for a developer:
 	"instagram_username":"toddkuehnl"
 }
 ```
-I added a health check end point here ( should just return a 200):
-https://kky3vgml56.execute-api.us-east-1.amazonaws.com/prod/health
-
-Here is an end-point for fetching all developers:
-https://kky3vgml56.execute-api.us-east-1.amazonaws.com/prod/developers
-
-REST endpoint:
-https://kky3vgml56.execute-api.us-east-1.amazonaws.com/prod/developer
 
 Here is an example of the notification email that is sent via SNS Topic Subscription on insert:
 
